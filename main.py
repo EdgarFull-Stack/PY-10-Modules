@@ -32,3 +32,19 @@ print(random_number)
 from random import*
 parinktis = sample(['sausis','vasaris','kovas'], k=3)
 print(parinktis)
+
+# Example from our created modules (aritmetikosmodulis.py)
+import aritmetikosmodulis as am
+
+res = am.dalink(9, 3)
+print(res)
+
+res = am.daugink(9, 3)
+print(res)
+
+res = am.atimk(9, 3)
+print(res)
+
+res = am.sumuok(9, 3)
+print(res)
+

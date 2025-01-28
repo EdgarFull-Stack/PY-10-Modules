@@ -18,7 +18,17 @@ print(random_number)
 random_month = choice(['sausis','vasaris','kovas'])
 print(random_month)
 
-# Example alias
+# Example
 import random as rn
 atsitiktinis_skaicius = rn.randint(1,10)
 print(f'Atsitiktinis nuo 1 iki 10: {atsitiktinis_skaicius}')
+
+# Example alias
+from random import  randint as rnt
+random_number = rnt(1,10)
+print(random_number)
+
+# Example that is not recommended to use
+from random import*
+parinktis = sample(['sausis','vasaris','kovas'], k=3)
+print(parinktis)
